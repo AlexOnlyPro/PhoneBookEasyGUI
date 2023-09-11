@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "name": "Alexey",
+            "phonenumber": "1231231"
+        },
+        {
+            "name": "Anoton",
+            "phonenumber": "55434"
+        },
+        {
+            "name": "Oleg",
+            "phonenumber": "7788745"
+        },
+        {
+            "name": "Olegan",
+            "phonenumber": "5534552"
+        },
+        {
+            "name": "Oleg",
+            "phonenumber": "778554412"
+        },
+        {
+            "name": "Jok",
+            "phonenumber": "321"
+        },
+        {
+            "name": "Oleg",
+            "phonenumber": "4321"
+        }
+    ]
+}
