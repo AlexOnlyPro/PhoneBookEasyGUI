@@ -257,8 +257,6 @@ def start_prog(num):
                         choices=("Имя", "Номер телефона", "Главное меню")
                     )
                     change_inf(n, value)
-                    if n == 2:
-                        starter()
                     change_contacts_menu()
                 elif user['phonenumber'] == find:
                     value = data['users'].pop(mininal)
@@ -268,8 +266,6 @@ def start_prog(num):
                             f"что вы хотите изменить?", choices=(
                         "Имя", "Номер телефона", "Главное меню"))
                     change_inf(n, value)
-                    if n == 2:
-                        starter()
                     change_contacts_menu()
                 else:
                     None
