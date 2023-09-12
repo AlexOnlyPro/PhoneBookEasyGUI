@@ -124,7 +124,7 @@ def start_prog(num):
                 title="Контакт добавлен", choices=(c[7:9])
             )
             if finder == 0:
-                start_prog(6)
+                starter()
             if finder == 1:
                 start_prog(1)
 
