@@ -251,7 +251,9 @@ def start_prog(num):
                     value = data['users'].pop(mininal)
                     save_inf(data, 'phonebook.json')
                     n = indexbox(
-                        msg=f"Найден контакт {value}, что вы хотите изменить?",
+                        msg=f"Найден контакт:\nИмя: {user['name']}\n"
+                            f"Номер телефона: {user['phonenumber']}\n"
+                            f"что вы хотите изменить?",
                         choices=("Имя", "Номер телефона", "Главное меню")
                     )
                     change_inf(n, value)
@@ -261,8 +263,9 @@ def start_prog(num):
                 elif user['phonenumber'] == find:
                     value = data['users'].pop(mininal)
                     save_inf(data, 'phonebook.json')
-                    n = indexbox(msg=f"Найден контакт {value}, "
-                                     f"что вы хотите изменить?", choices=(
+                    n = indexbox(msg=f"Найден контакт:\nИмя: {user['name']}\n"
+                            f"Номер телефона: {user['phonenumber']}\n"
+                            f"что вы хотите изменить?", choices=(
                         "Имя", "Номер телефона", "Главное меню"))
                     change_inf(n, value)
                     if n == 2:
